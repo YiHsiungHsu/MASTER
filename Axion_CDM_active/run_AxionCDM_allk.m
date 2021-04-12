@@ -694,7 +694,7 @@ kf = num2str(k_end);
 angle1 = num2str(180 - angle_shift1);
 kappa21str = num2str(kappa21);
 
-filename = ['EACDM_two_m1=' m1 '_angle=' angle1 '_1to' ...
+filename = ['AxionCDM_two_m1=' m1 '_angle=' angle1 '_1to' ...
     kappa21str '_' af 'a_eq_from_k_' ki 'to' kf '.txt'];
 %%% filename
 fid = fopen(filename,'wt');
